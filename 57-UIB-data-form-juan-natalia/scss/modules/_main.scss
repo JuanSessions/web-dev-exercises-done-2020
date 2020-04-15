@@ -1,0 +1,7 @@
+@use "../variables/colors" as *;
+
+h1 {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: $primary-color;
+}

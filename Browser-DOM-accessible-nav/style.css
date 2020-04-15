@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    background: rgb(136, 13, 54);
+    transform: translateX(200%);
+    transition: 2s ease-out;
+}
+
+[aria-expanded=true]+#main-menu {
+    transform: translateX(0%);
+    background: rgb(149, 147, 179);
+}

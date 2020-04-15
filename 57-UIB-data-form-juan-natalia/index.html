@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basic Data Form Exercises</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>form</h1>
+
+    <form action="#">
+      <div id="form-box">
+        <fieldset>
+          <legend>Personal Data</legend>
+
+          <label for="firstName">
+            First name:
+            <input type="text" name="firstName" id="firstName" placeholder="" />
+          </label>
+
+          <label for="lastName">
+            last name:
+            <input type="text" name="lastName" id="lastName" placeholder="" />
+          </label>
+
+          <label for="street">
+            Street:
+            <input type="text" name="street" id="street" placeholder="" />
+          </label>
+
+          <label for="zipcode">
+            Zipcode:
+            <input type="text" name="zipcode" id="zipcode" placeholder="" />
+          </label>
+
+          <label for="city">
+            City:
+            <input type="text" name="city" id="city" placeholder="" />
+          </label>
+
+          <label for="phone">
+            Phone:
+            <input type="text" name="phone" id="phone" placeholder="" />
+          </label>
+
+          <label for="email">
+            Email:
+            <input type="text" name="email" id="email" placeholder="" />
+          </label>
+
+          <label for="comment">
+            Comment:
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </fieldset>
+
+        <fieldset id="products">
+          <legend>Products</legend>
+
+          <div id="webDesign">
+            <span class="bold">Web Design:</span>
+
+            <div class="input-container">
+              <label for="designIndividual">Individual</label>
+              <input
+                type="radio"
+                name="webDesign"
+                value="individual"
+                id="designIndividual"
+              />
+            </div>
+            <!-- .input-container -->
+
+            <div class="input-container">
+              <label for="designTemplate">Template</label>
+              <input
+                type="radio"
+                name="webDesign"
+                value="template"
+                id="designTemplate"
+              />
+            </div>
+            <!-- .input-container -->
+          </div>
+
+          <div id="webDev">
+            <span class="bold">Web Development:</span>
+
+            <div class="input-container">
+              <label for="webDev-html-css"> HTML & CSS</label>
+              <input
+                type="checkbox"
+                name="webDev"
+                value="webDev-html-css"
+                id="webDev-html-css"
+              />
+            </div>
+            <!-- .input-container -->
+
+            <div class="input-container">
+              <label for="webDev-js"> JavaScript</label>
+              <input
+                type="checkbox"
+                name="webDev"
+                value="webDev-js"
+                id="webDev-js"
+              />
+            </div>
+            <!-- .input-container -->
+
+            <div class="input-container">
+              <label for="webDev-mongo"> MongoDB</label>
+              <input
+                type="checkbox"
+                name="webDev"
+                value="webDev-mongo"
+                id="webDev-mongo"
+              />
+            </div>
+            <!-- .input-container -->
+          </div>
+
+          <label for="projectStart">
+            Project start:
+            <input type="date" name="projectStart" id="projectStart" />
+          </label>
+
+          <label for="projectEnd">
+            Project end:
+            <input type="date" name="projectEnd" id="projectEnd" />
+          </label>
+
+          <label for="category">
+            Category:
+            <select name="category" id="category">
+              <option value="personal">Personal</option>
+              <option value="company">Company</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+        </fieldset>
+      </div>
+
+      <input type="submit" value="Order our services" id="submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: rgb(90, 134, 112);
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

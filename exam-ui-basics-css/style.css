@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+.list li {
+    font-weight: bold;
+}
+
+ul li a {
+    color: purple;
+}
+
+.accent {
+    color: rgb(245, 172, 38);
+    font-size: 2em;
+    font-family: Arial, 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.box-model {
+    border: 3px solid purple;
+    padding: 0.5em;
+    margin: 1em 1em 2em 1em;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rounded {
+    border-radius: 10em;
+}
+
+footer a:visited {
+    color: chocolate;
+}
+
+footer a:hover {
+    color: gold;
+}
+
+@media only screen and (min-width: 568px) {
+    html {
+        font-size: 120%;
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "browser-dom-accessible-nav",
+  "version": "1.0.0",
+  "description": "## Aim for this structure within your `body` element:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi-fighters/Browser-DOM-accessible-nav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi-fighters/Browser-DOM-accessible-nav/issues"
+  },
+  "homepage": "https://github.com/wi-fighters/Browser-DOM-accessible-nav#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0"
+  }
+}

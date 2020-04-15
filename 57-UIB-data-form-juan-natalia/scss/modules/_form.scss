@@ -1,0 +1,92 @@
+@use "../variables/colors"as *;
+
+form {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  #form-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  fieldset {
+    width: 45%;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    border: 2px solid $primary-color;
+    border-radius: 0.2rem;
+  }
+
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // padding-top: 1rem; // TODO: remove from .input-container label
+  }
+
+  input,
+  textarea {
+    padding: 0.2rem;
+    border: 1px solid $secondary-color;
+    border-radius: 0.2rem;
+  }
+
+  #webDev {
+    margin-top: 1rem;
+  }
+
+  #webDesign {
+    margin-top: 1rem;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    // target all direct children of the above selector
+    & > label {
+      margin-left: 0.25rem;
+    }
+  }
+
+  // #webDev label,
+  // #webDesign label {
+  //     padding: 0.5rem 0rem; // TODO: remove from .input-container label
+  // }
+
+  // input[type="radio"] {
+  //     margin-top: -1rem;
+  // }
+
+  // input[type="checkbox"] {
+  //     margin-top: -1rem; // TODO: remove from .input-container input
+  // }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  #submit {
+    align-self: flex-end;
+    margin-top: -10rem;
+    margin-right: 14rem;
+    padding: 0.5rem;
+    background-color: $secondary-color;
+    color: #fff;
+
+    &:hover {
+      background-color: $assent-color;
+    }
+  }
+}

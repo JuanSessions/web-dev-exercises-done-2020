@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro to Browser</title>
+</head>
+
+<body>
+    <h1>Intro to Browser</h1>
+    <p>Open the console...</p>
+    <button id="button">click me</button>
+    <div id="box" class="boxy box"></div>
+
+
+
+    <h1>Handle a click event</h1>
+
+    <!-- <button id="button">Click me!</button>
+        <div id="square" class="success firsty secondy lol"></div> -->
+
+
+    <h2>Now we want to click one element and make it affect itself.</h2>
+
+    <!-- <p>Option 1: Use a button element (and modify the styling)</p>
+        <p><em>Eep this is not working right now, but it's worth investigating for another time</em></p>
+        <button id="squareButton" class="square success"></button> -->
+
+    <p>Option 2: Use a div element (and modify the role for accessibility)</p>
+    <!-- this would be a div that will be used as a button -->
+    <div role="button" id="squareOne" class="square success"></div>
+
+    <div role="button" id="squareTwo" class="square success"></div>
+
+    <noscript>
+        <p>Please <a href="https://www.enable-javascript.com/">enable JavaScript</a> for a better user experience</p>
+    </noscript>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

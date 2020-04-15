@@ -1,0 +1,35 @@
+noscript p {
+    padding: 2rem;
+    background-color: gold;
+    font-weight: bold;
+}
+
+.box {
+    height: 6rem;
+    width: 6rem;
+    background-color: rgb(86, 143, 143);
+}
+
+.boxy {
+    background-color: blueviolet;
+}
+
+button {
+    -webkit-appearance: none !important;
+}
+
+.square {
+    margin-top: 1em;
+    height: 250px;
+    width: 250px;
+    transition: 1s;
+}
+
+.success {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.error {
+    background-color: red;
+}

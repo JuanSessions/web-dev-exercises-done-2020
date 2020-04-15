@@ -1,0 +1,23 @@
+{
+  "name": "57-uib-data-form-juan-natalia",
+  "version": "1.0.0",
+  "description": "## Exercise: Form 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi-fighters/57-UIB-data-form-juan-natalia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi-fighters/57-UIB-data-form-juan-natalia/issues"
+  },
+  "homepage": "https://github.com/wi-fighters/57-UIB-data-form-juan-natalia#readme",
+  "devDependencies": {
+    "dart-sass": "^1.24.4"
+  }
+}
